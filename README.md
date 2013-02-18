@@ -21,7 +21,6 @@ xcodebuild -target PROVISIONING_PROFILE="your_mobile_provision_file_name" CODE_S
 
 xcrun -sdk iphoneos PackageApplication -v build/Release-iphoneos/your_app.app -o /your/file/path/
 
-以上命令就是用命令行编译的方法
 
 细节
 ----
@@ -51,7 +50,7 @@ Xcode Build Setting Reference [apple doc](http://developer.apple.com/library/mac
 Xcode file: project.pbxproj Format
 ==================================
 
-Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-project-file-format#PBXSourcesBuildPhase)
+Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-project-file-format)
 
 对pbxproj 的操作：
 -----------------

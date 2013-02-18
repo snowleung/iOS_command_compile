@@ -6,6 +6,7 @@ iOS命令行编译相关
 环境
 ----
 Mac OSX 10.8.2
+
 Xcode Version 4.6 (4H127)
 
 命令行编译
@@ -56,22 +57,25 @@ Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-pro
 -----------------
 1、plist
 
-    plist 是mac os 有的一个命令，可以轻易将plist文件转为xml,json格式，或者将xml文件转为plist文件。
+    plist 是mac os 有的一个命令，可以轻易将plist文件转为xml,json格式。
     [文档链接](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/plutil.1.html)
+    用例:
+    plist -convert xml1 -o - /your/plist/path
     
 2、pl
 
     pl 也是mac os 有的一个命令，可以将xml文件转为plist文件，但是这个文件是old-style的（即xcode中的pbxproj文件）。
     [文档链接](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/pl.1.html)
+    用例:
+    pl -input /your/plist/xml/format/path
+    
 
 对pbxproj 的修改：
 -----------------
+
 目前有两个py，但是都很老，请参考
+
 1、[Pbxproj.py@three20](https://github.com/facebook/three20/blob/master/src/scripts/Pbxproj.py)
+
 2、[pbxproj.py@titanium_mobile](https://github.com/appcelerator/titanium_mobile/blob/master/support/iphone/pbxproj.py)
-
-
-
-
-
 

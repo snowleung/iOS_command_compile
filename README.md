@@ -79,3 +79,12 @@ Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-pro
 
 2、[pbxproj.py@titanium_mobile](https://github.com/appcelerator/titanium_mobile/blob/master/support/iphone/pbxproj.py)
 
+
+对plist文件的操作:
+------------------
+
+1、python库
+    
+    plistlib [链接地址](http://docs.python.org/2/library/plistlib.html)
+
+

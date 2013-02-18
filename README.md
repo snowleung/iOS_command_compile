@@ -27,11 +27,13 @@ xcrun -sdk iphoneos PackageApplication -v build/Release-iphoneos/your_app.app -o
 
 1.PROVISIONING_PROFILE 的值
 
-从app_store中下载回来的*.mobileprovision文件的文件名（需要在/Users/yourname/Library/MobileDevice/Provisioning\ Profiles/ 下,在Xcode的Organizer->Provisioning Profiles中也可以看到 ）
+    从app_store中下载回来的*.mobileprovision文件的文件名
+    （需要在/Users/yourname/Library/MobileDevice/Provisioning\ Profiles/ 下,在Xcode的Organizer->Provisioning Profiles中也可以看到 ）
 
 2.CODE_SIGN_IDENTITY 的值
 
-apple提供的cer文件中提供的信息，安装后，可以在system preference -> keychain access中的My Certificates tab中看到（Name为iPhone Distribution:your_info），这个name就是CODE_SIGN_IDENTITY的值
+    apple提供的cer文件中提供的信息，安装后，可以在system preference -> keychain access中的My Certificates tab中看到
+    （Name为iPhone Distribution:your_info），这个name就是CODE_SIGN_IDENTITY的值
 
 设定好这两个值，就可以编译和打包出可以直接上传到appstore的ipa包了
 

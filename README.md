@@ -52,7 +52,7 @@ Xcode file: project.pbxproj Format
 
 Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-project-file-format#PBXSourcesBuildPhase)
 
-对pboproj 的操作：
+对pbxproj 的操作：
 -----------------
 1、plist
 
@@ -63,6 +63,12 @@ Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-pro
 
     pl 也是mac os 有的一个命令，可以将xml文件转为plist文件，但是这个文件是old-style的（即xcode中的pbxproj文件）。
     [文档链接](http://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man1/pl.1.html)
+
+对pbxproj 的修改：
+-----------------
+目前有两个py，但是都很老，请参考
+1、[Pbxproj.py@three20](https://github.com/facebook/three20/blob/master/src/scripts/Pbxproj.py)
+2、[pbxproj.py@titanium_mobile](https://github.com/appcelerator/titanium_mobile/blob/master/support/iphone/pbxproj.py)
 
 
 

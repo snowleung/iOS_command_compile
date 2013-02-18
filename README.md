@@ -79,6 +79,17 @@ Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-pro
 2、[pbxproj.py@titanium_mobile](https://github.com/appcelerator/titanium_mobile/blob/master/support/iphone/pbxproj.py)
 
 
+取巧:
+-----
+
+project.pbxproj文件如果格式不对的话，会导致Xcode无法打开整个project，这里可以使用
+
+    plist -convert xml1 -o - /your/project.pbxproj/path
+    
+会提示转换出错，会有出错行信息，可以方便查错
+
+
+
 对plist文件的操作:
 ------------------
 

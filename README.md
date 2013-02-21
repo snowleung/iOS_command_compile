@@ -50,7 +50,7 @@ Xcode Build Setting Reference [apple doc](http://developer.apple.com/library/mac
 Xcode file: project.pbxproj Format
 ==================================
 
-Xcode Project File Format [link](http://www.monobjc.net/index.php?page=xcode-project-file-format)
+Xcode Project File Format [link](http://www.monobjc.net/xcode-project-file-format.html)
 
 对pbxproj 的操作：
 -----------------
